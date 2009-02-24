@@ -1,0 +1,4 @@
+*.swp
+database.yml
+.swp
+*.log
