@@ -1,4 +1,8 @@
 *.swp
-database.yml
 .swp
+**/*.swp
+config/database.yml
 *.log
+log/*.log
+.DS_Store
+tmp/**/*
