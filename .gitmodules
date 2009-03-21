@@ -1,0 +1,6 @@
+[submodule "vendor/extensions/link_roll"]
+	path = vendor/extensions/link_roll
+	url = git://github.com/radiant/radiant-link-roll-extension.git
+[submodule "vendor/extensions/news"]
+	path = vendor/extensions/news
+	url = git://github.com/screenconcept/radiant-news-extension.git

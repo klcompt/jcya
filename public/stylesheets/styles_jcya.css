@@ -1,0 +1,153 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-image: url(/images/fieldBackground.jpg);
+	background-repeat: repeat-x;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #E4E4DB;
+	font-family: Verdana, Arial, SansSerif, "Lucida Grande";
+	color:#333333;
+	font-size:11px;
+}
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+
+.footerText {
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+.footerText:link {
+	font-size: 10px;
+	color: #FFFFFF;
+}
+.footerText:visited {
+	font-size: 10px;
+	color: #FFFFFF;
+}
+.footerText:hover {
+	font-size: 10px;
+	color: #FFFFFF;
+}
+	
+
+.usernamePass {
+	font-size: 10px;
+	color: #1C3B64;
+}
+h1 {
+	font-family: Verdana, Arial, SansSerif, "Lucida Grande";
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-image: url(/images/h1_background.png);
+	background-repeat: no-repeat;
+	text-align: left;
+	height: 35px;
+	width: 252px;
+	margin: 0px;
+	vertical-align: middle;
+	text-indent: 15px;
+	background-position: center;
+	padding-top: 11px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+h2 {
+	font-family: Verdana, Arial, SansSerif, "Lucida Grande";
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-image: url(/images/h2_background.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 32px;
+	width: 170px;
+	margin: 0px;
+	vertical-align: middle;
+	background-position: center;
+	padding-top: 6px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+.subhead {
+	font-size: 16px;
+	color: #1C3B64;
+}
+.pictureBorders {
+	margin-right: 10px;
+	border: 1px solid #FFFFFF;
+}
+
+p {
+margin-top:0px;
+margin-bottom:10px;
+}
+
+#marginTop {
+margin-top:15px;
+}
+
+#wrapper {
+margin-top:15px;
+margin-bottom:15px;
+}
+
+.sectionLinks {
+	font-size: 11px;
+	font-weight: bold;
+	color: #1C3B64;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.sectionLinks:link {
+	font-size: 11px;
+	font-weight: bold;
+	color: #1C3B64;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-decoration: none;
+}
+.sectionLinks:visited {
+	font-size: 11px;
+	font-weight: bold;
+	color: #1C3B64;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.sectionLinks:hover {
+	font-size: 11px;
+	font-weight: bold;
+	color: #51719B;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-decoration: none;
+}
+
+div#home {
+  background-image: url('images/NAVhome_off.png');
+}
+
+div#home:hover {
+  background-image: url('images/NAVhome_on.png');
+}
+

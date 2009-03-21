@@ -23,6 +23,8 @@ Radiant::Initializer.run do |config|
   # in vendor/plugins are loaded in alphabetical order.
   # :all can be used as a placeholder for all plugins not explicitly named
   # config.plugins = [ :exception_notification, :ssl_requirement, :all ]
+
+  config.gem "calendar_date_select"
   
   # Only load the extensions named here, in the order given. By default all 
   # extensions in vendor/extensions are loaded, in alphabetical order. :all 

@@ -38,7 +38,7 @@ table {
 /* main layout */
 
 #header {
-  background-color: #c00;
+  background-image: url(/images/fieldBackground.jpg);
   color: white;
   width: 100%;
   padding-top: 1px;

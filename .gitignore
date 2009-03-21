@@ -6,3 +6,5 @@ config/database.yml
 log/*.log
 .DS_Store
 tmp/**/*
+config/deploy.rb
+cache/**/*
