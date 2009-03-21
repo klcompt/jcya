@@ -7,4 +7,6 @@ log/*.log
 .DS_Store
 tmp/**/*
 config/deploy.rb
+cache
+cache/*
 cache/**/*
