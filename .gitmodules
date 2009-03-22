@@ -7,3 +7,6 @@
 [submodule "vendor/extensions/ray"]
 	path = vendor/extensions/ray
 	url = git://github.com/johnmuhl/radiant-ray-extension.git
+[submodule "vendor/plugins/rspec"]
+	path = vendor/plugins/rspec
+	url = git://github.com/dchelimsky/rspec.git
