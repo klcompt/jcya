@@ -3,7 +3,7 @@
 	url = git://github.com/radiant/radiant-link-roll-extension.git
 [submodule "vendor/extensions/news"]
 	path = vendor/extensions/news
-	url = git://github.com/screenconcept/radiant-news-extension.git
+	url = git://github.com/klcompt/radiant-news-extension.git
 [submodule "vendor/extensions/ray"]
 	path = vendor/extensions/ray
 	url = git://github.com/johnmuhl/radiant-ray-extension.git
