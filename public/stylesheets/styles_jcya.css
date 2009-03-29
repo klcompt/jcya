@@ -26,6 +26,9 @@ a:hover {
 a:active {
 	text-decoration: none;
 }
+a:link IMG, a:visited IMG { 
+  border-style: none; 
+} 
 
 .footerText {
 	font-size: 10px;
