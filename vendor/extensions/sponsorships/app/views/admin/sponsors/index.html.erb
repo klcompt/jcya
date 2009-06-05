@@ -1,0 +1,33 @@
+<% include_stylesheet 'admin/sponsors/sponsors' %>
+
+<h1>Sponsors</h1>
+
+<p>You can enter sponsors here, which will show up on the public side of your website.</p>
+
+<table cellspacing="0" cellpadding="0" border="0" class="index" id="sponsors">
+
+  <thead>
+    <tr>
+      <th class="sponsor">Sponsor</th>
+      <th class="modify">Modify</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @sponsors.each do |sponsor| %>
+      <tr class="node level-1">
+        <td class="sponsor">
+          <%= image('sponsors/sponsor') %>
+          <%= sponsor_to sponsor.title, edit_admin_sponsor_url(:id => sponsor.id) %>
+        </td>
+        <td class="remove">
+          <%= sponsor_to image('remove', :alt => 'Remove sponsor'), remove_admin_sponsor_url(:id => sponsor.id) %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+
+</table>
+
+<p><%= sponsor_to image("sponsors/new-sponsor", :alt => "New sponsor"), {:action => :new} %></p>
+
