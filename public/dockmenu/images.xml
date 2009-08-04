@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- 
+This is the XML from which the SWF file reads the following data:
+
+image - the thumb image in the menu.
+bigimage - the big image shown in Lightbox;  ignore it if you're not using Lightbox
+url - the address to go to when clicking the image
+target - _self - opens the url in the same browser page
+	 - _blank - opens the url in a new browser page
+	- a number - executes _root.gotoAndPlay(number); in Flash - available only in the commercial package
+lightboxInfo - the description for the bigimage;  ignore it if you're not using Lightbox
+
+The tooltip text is recorded as CDATA. You can use HTML tags like "<br>"
+-->
+<dockmenu>
+  <!-- <photo image="/dockmenu/images/01.jpg" bigimage="/dockmenu/images/big/01.jpg" url="javascript:GroupDelegate('img1')" target="_self" lightboxInfo="Optional description for image 1"><![CDATA[Hello!]]></photo>
+  <photo image="/dockmenu/images/02.jpg" bigimage="/dockmenu/images/big/02.jpg" url="javascript:GroupDelegate('img2')" target="_self" lightboxInfo="Optional description for image 2"><![CDATA[Download the new<br>Dock Menu]]></photo>
+  -->
+  <photo image="/dockmenu/images/proactive_dark_175.jpg" bigimage="/dockmenu/images/big/proactive_dark_175.jpg" url="http://www.proactive-chiropractic.com" target="_blank" lightboxInfo="ProActive Chiropractic"><![CDATA[ProActive Chiropractic]]></photo>
+  <photo image="/dockmenu/images/stlPresort_logo.png" bigimage="/dockmenu/images/big/stlPresort_logo.png" url="http://www.stlouispresort.com" target="_blank" lightboxInfo="St. Louis Presort"><![CDATA[St. Louis Presort]]></photo>
+  <photo image="/dockmenu/images/jjsports.gif" bigimage="/dockmenu/images/big/jjsports.gif" url="http://www.jjsportsmo.com" target="_blank" lightboxInfo="J&J Sports and Screen Printing"><![CDATA[J&J Sports and Screen Printing]]></photo>
+</dockmenu>
